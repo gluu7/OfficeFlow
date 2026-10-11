@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./AdminDashboard.css";
 
-const API = "http://localhost:3000/api/admin";
+const API = "https://officeflow-api-f462.onrender.com/api/admin";
 
 function AdminDashboard() {
     const [overview, setOverview] = useState(null);

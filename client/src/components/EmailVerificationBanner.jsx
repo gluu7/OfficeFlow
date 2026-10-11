@@ -17,7 +17,7 @@ function EmailVerificationBanner({ user }) {
 
         try {
             const response = await fetch(
-                "http://localhost:3000/api/email-verification/send",
+                "https://officeflow-api-f462.onrender.com/api/email-verification/send",
                 {
                     method: "POST",
                     credentials: "include"

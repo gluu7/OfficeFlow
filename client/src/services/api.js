@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://officeflow-api-f462.onrender.com/api";
 
 export async function checkBackend() {
     const response = await fetch(`${API_URL}/health`);
@@ -12,7 +12,7 @@ export async function checkBackend() {
 }
 
 export async function getSchools() {
-    const response = await fetch("http://localhost:3000/api/schools");
+    const response = await fetch("https://officeflow-api-f462.onrender.com/api/schools");
 
     if (!response.ok) {
         throw new Error("Failed to fetch schools");
@@ -23,7 +23,7 @@ export async function getSchools() {
 
 export async function getInstructors() {
     const response = await fetch(
-        "http://localhost:3000/api/instructors"
+        "https://officeflow-api-f462.onrender.com/api/instructors"
     );
 
     if (!response.ok) {

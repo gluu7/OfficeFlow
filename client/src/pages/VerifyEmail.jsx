@@ -20,7 +20,7 @@ function VerifyEmail() {
 
         try {
             const response = await fetch(
-                "http://localhost:3000/api/email-verification/confirm",
+                "https://officeflow-api-f462.onrender.com/api/email-verification/confirm",
                 {
                     method: "POST",
                     headers: {

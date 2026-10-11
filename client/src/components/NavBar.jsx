@@ -93,7 +93,7 @@ function NavBar({ user }) {
     async function handleLogout() {
         try {
             const response = await fetch(
-                "http://localhost:3000/api/auth/logout",
+                "https://officeflow-api-f462.onrender.com/api/auth/logout",
                 {
                     method: "POST",
                     credentials: "include"

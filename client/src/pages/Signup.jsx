@@ -19,7 +19,7 @@ function Signup() {
         async function loadSchools() {
             try {
                 const response = await fetch(
-                    "http://localhost:3000/api/schools"
+                    "https://officeflow-api-f462.onrender.com/api/schools"
                 );
 
                 if (!response.ok) {
@@ -66,7 +66,7 @@ function Signup() {
 
         try {
             const response = await fetch(
-                "http://localhost:3000/api/auth/signup",
+                "https://officeflow-api-f462.onrender.com/api/auth/signup",
                 {
                     method: "POST",
                     headers: {

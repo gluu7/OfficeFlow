@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getInstructors } from "../services/api.js";
-const API_URL = "http://localhost:3000";
+const API_URL = "https://officeflow-api-f462.onrender.com";
 const DAYS = [
     "Sunday",
     "Monday",
