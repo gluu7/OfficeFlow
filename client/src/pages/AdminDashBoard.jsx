@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import "./AdminDashboard.css";
+import "./AdminDashBoard.css";
 
 const API = "https://officeflow-api-f462.onrender.com/api/admin";
 
